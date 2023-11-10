@@ -1,0 +1,13 @@
+.logo {
+  display: flex;
+}
+.logo .part_1 {
+  color: #F2E7DC;
+  font-weight: 900;
+  font-size: 2rem;
+}
+.logo .part_2 {
+  color: #F2EA79;
+  font-weight: 900;
+  font-size: 2rem;
+}/*# sourceMappingURL=logo.css.map */

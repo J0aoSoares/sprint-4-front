@@ -1,0 +1,145 @@
+.container_footer {
+  width: 100%;
+  background-color: #038C3E;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.footer .footer_01 {
+  display: flex;
+  flex-direction: column;
+  margin: 1.5rem 0;
+}
+.footer .footer_01 li {
+  list-style: none;
+  margin: 0 2rem;
+  padding: 2px;
+}
+.footer .footer_01 li a {
+  text-decoration: none;
+  color: #F2E7DC;
+  cursor: pointer;
+}
+.footer .footer_01 li a:hover {
+  text-decoration: underline;
+  text-decoration-color: #F2EA79;
+  color: #F2EA79;
+}
+.footer .footer_02 {
+  display: flex;
+  flex-direction: column;
+}
+.footer .footer_02 .footer_titulos {
+  font-size: 1.5rem;
+  color: black;
+  margin-top: 3rem;
+}
+.footer .footer_02 li {
+  list-style: none;
+  margin: 0 2rem;
+  padding: 2px;
+}
+.footer .footer_02 li a {
+  text-decoration: none;
+  color: #F2E7DC;
+  cursor: pointer;
+}
+.footer .footer_02 li a:hover {
+  text-decoration: underline;
+  text-decoration-color: #F2EA79;
+  color: #F2EA79;
+}
+.footer .footer_03 {
+  display: flex;
+  flex-direction: column;
+}
+.footer .footer_03 .footer_titulos {
+  font-size: 1.5rem;
+  color: black;
+  margin-top: 3rem;
+}
+.footer .footer_03 li {
+  list-style: none;
+  margin: 0 2rem;
+  padding: 2px;
+}
+.footer .footer_03 li a {
+  text-decoration: none;
+  color: #F2E7DC;
+  cursor: pointer;
+}
+.footer .footer_03 li a:hover {
+  text-decoration: underline;
+  text-decoration-color: #F2EA79;
+  color: #F2EA79;
+}
+.footer .footer_04 {
+  display: flex;
+  flex-direction: column;
+}
+.footer .footer_04 .duvidas {
+  display: flex;
+  flex-direction: column;
+  margin: 0 1rem;
+}
+.footer .footer_04 .duvidas h1 {
+  margin-top: 3rem;
+  font-size: 1.5rem;
+}
+.footer .footer_04 .duvidas p {
+  color: #F2E7DC;
+}
+.footer .footer_04 .duvidas .duvidas_grupo {
+  display: flex;
+}
+.footer .footer_04 .duvidas input {
+  width: 80%;
+}
+.footer .footer_04 .duvidas .button_duvidas {
+  background-color: #049DBF;
+  border: none;
+  color: #F2E7DC;
+  padding: 0px 0.75rem;
+  font-size: 1.125rem;
+  height: 100%;
+  border-radius: 0px 4px 4px 0px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.footer .footer_04 .footer_redes {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+.footer .footer_04 .footer_redes .facebook {
+  font-size: 2rem;
+  color: black;
+  padding: 0 1rem;
+  margin-top: 0.3rem;
+}
+.footer .footer_04 .footer_redes .instagram {
+  font-size: 2.5rem;
+  color: black;
+  padding: 0 1rem;
+}
+
+.footer_copyright {
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    grid-template-columns: repeat(2, 2fr);
+    gap: 2rem;
+  }
+}
+@media screen and (max-width: 426px) {
+  .footer {
+    grid-template-columns: repeat(1, 2fr);
+    padding: 3rem 2rem;
+  }
+}/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,74 @@
+[
+    {
+        "id": "1",
+        "nome": "Parque Ibirapuera",
+        "endereco": "Av. Pedro Álvares Cabral - Vila Mariana, São Paulo - SP, 04094-050",
+        "img": "https://a.cdn-hotels.com/gdcs/production41/d1254/e972b0d1-c526-4b2d-aefa-b83f885bff8b.jpg?impolicy=fcrop&w=1600&h=1066&q=medium",
+        "Categorias": [
+            "corrida",
+            "caminhada",
+            "bike",
+            "futebol"
+        ]
+    },
+    {
+        "id": "2",
+        "nome": "Parque Villa-Lobos",
+        "endereco": "Av. Prof. Fonseca Rodrigues, 2001 - Alto de Pinheiros, São Paulo - SP, 05461-010",
+        "img": "https://a.cdn-hotels.com/gdcs/production24/d1298/b8b71a4a-9945-4974-bbd5-05f851f1e91b.jpg?impolicy=fcrop&w=1600&h=1066&q=medium",
+        "Categorias": [
+            "corrida",
+            "caminhada",
+            "bike",
+            "futebol"
+        ]
+    },
+    {
+        "id": "3",
+        "nome": "Jardim Botânico de São Paulo",
+        "endereco": "Av. Miguel Estéfno, 3031 - Vila Água Funda, São Paulo - SP, 04301-902",
+        "img": "https://a.cdn-hotels.com/gdcs/production60/d66/26fb5718-36ee-4b25-bf3a-5f8e4bda0147.jpg?impolicy=fcrop&w=1600&h=1066&q=medium",
+        "Categorias": [
+            "corrida",
+            "caminhada",
+            "bike",
+            "futebol"
+        ]
+    },
+    {
+        "id": "4",
+        "nome": "Parque da Água Branca",
+        "endereco": "Av. Francisco Matarazzo, 455 - Água Branca, São Paulo - SP, 05001-900",
+        "img": "https://a.cdn-hotels.com/gdcs/production139/d96/bbdad3cd-8af3-4a20-a8c9-f3a2f7d3ec04.jpg?impolicy=fcrop&w=1600&h=1066&q=medium",
+        "Categorias": [
+            "corrida",
+            "caminhada",
+            "bike",
+            "futebol"
+        ]
+    },
+    {
+        "id": "5",
+        "nome": "Parque Burle Marx",
+        "endereco": "Av. Dona Helena Pereira de Moraes, 200 - Vila Andrade, São Paulo - SP, 05707-400",
+        "img": "https://a.cdn-hotels.com/gdcs/production20/d766/c967274c-3320-4f06-9e7a-5c79121e532c.jpg?impolicy=fcrop&w=1600&h=1066&q=medium",
+        "Categorias": [
+            "corrida",
+            "caminhada",
+            "bike",
+            "futebol"
+        ]
+    },
+    {
+        "id": "6",
+        "nome": "Parque Estadual da Cantareira",
+        "endereco": "Av. Prof. Fonseca Rodrigues, 2001 - Alto de Pinheiros, São Paulo - SP, 05461-010",
+        "img": "https://a.cdn-hotels.com/gdcs/production42/d1052/0d71cbf3-94be-4a66-b73f-3726aefcfb7b.jpg?impolicy=fcrop&w=1600&h=1066&q=medium",
+        "Categorias": [
+            "corrida",
+            "caminhada",
+            "bike",
+            "futebol"
+        ]
+    }
+]
