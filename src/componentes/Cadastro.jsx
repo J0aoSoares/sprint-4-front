@@ -8,6 +8,8 @@ const Container = styled.div`
   flex-direction: column;
   align-items: center;
   margin-top: 20px;
+  padding-top: 25vh;
+  height: 80vh;
 `;
 
 const Input = styled.input`
@@ -17,20 +19,23 @@ const Input = styled.input`
 
 const LoginButton = styled(Button)`
   margin-bottom: 10px;
-  transition: background-color 0.1s ease;
+  transition: background-color 0.5s ease;
 
   &:hover {
-    background-color: #28a745; /* Cor desejada no hover */
+    background-color: #28a745;
+    transition: background-color 0.5s ease;
   }
 `;
 
 const StyledDropdownToggle = styled(Dropdown.Toggle)`
-  button {
-    background-color: #038C3E; /* Cor padrão */
-    transition: background-color 0.1s ease;
+  &&& {
+    button {
+      background-color: #038C3E;
+      transition: background-color 0.1s ease;
 
-    &:hover {
-      background-color: #28a745; /* Cor desejada no hover */
+      &:hover {
+        background-color: #28a745;
+      }
     }
   }
 `;
@@ -84,15 +89,14 @@ const Login = () => {
       </LoginButton>
 
       <Dropdown className="mb-3">
-
         <StyledDropdownToggle variant="primary" id="dropdown-basic">
-          Select Role
+          Função
         </StyledDropdownToggle>
 
         <Dropdown.Menu>
           <Dropdown.Item href="#/action-1">Admin</Dropdown.Item>
-          <Dropdown.Item href="#/action-2">User</Dropdown.Item>
-          <Dropdown.Item href="#/action-3">Guest</Dropdown.Item>
+          <Dropdown.Item href="#/action-2">Usuário</Dropdown.Item>
+          <Dropdown.Item href="#/action-3">Convidado</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
 
