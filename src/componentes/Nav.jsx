@@ -41,6 +41,9 @@ function Nav() {
             <button>
               <Link to="/login">Login</Link>
             </button>
+            <button>
+              <Link to="/cadastro">Cadastro</Link>
+            </button>
           </div>
 
           <div className="mobile-menu-icon">
@@ -53,24 +56,27 @@ function Nav() {
         </nav>
 
         <div className={`mobile-menu${isMenuOpen ? ' open' : ''}`}>
-        <ul>
-              <li className="nav-item">
-                <a href="#" className="nav-link">Home</a>
-              </li>
-              <li className="nav-item">
-                <a href="/" className="nav-link">Parques</a>
-              </li>
-              <li className="nav-item">
-                <a href="#" className="nav-link">Aventura</a>
-              </li> 
-              <li className="nav-item">
-                <a href="#" className="nav-link">Sobre</a>
-              </li> 
-            </ul>
+          <ul>
+            <li className="nav-item">
+              <a href="#" className="nav-link">Home</a>
+            </li>
+            <li className="nav-item">
+              <a href="/" className="nav-link">Parques</a>
+            </li>
+            <li className="nav-item">
+              <a href="#" className="nav-link">Aventura</a>
+            </li> 
+            <li className="nav-item">
+              <a href="#" className="nav-link">Sobre</a>
+            </li> 
+          </ul>
 
           <div className="login-button">
             <button>
               <a href="#">Login</a>
+            </button>
+            <button>
+              <a href="#">Cadastro</a>
             </button>
           </div>
         </div>

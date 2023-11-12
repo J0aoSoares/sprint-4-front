@@ -5,6 +5,7 @@ import App from './App.jsx';
 import Home from './rotas/Home.jsx';
 import Error from './rotas/Error.jsx';
 import Login from './rotas/Login.jsx';
+import Cadastro from './rotas/Cadastro.jsx'
 
 const router = createBrowserRouter([
   {
@@ -15,6 +16,7 @@ const router = createBrowserRouter([
 children: [
       { path: '/', element: <Home /> },
       { path: '/login', element: <Login />},
+      { path: '/cadastro', element: <Cadastro />}
     ]
   }
 ])

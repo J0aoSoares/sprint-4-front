@@ -7,7 +7,7 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 20px;
+  background-color: #038C3E;
   padding-top: 25vh;
   height: 80vh;
 `;
@@ -15,6 +15,7 @@ const Container = styled.div`
 const Input = styled.input`
   margin-bottom: 10px;
   padding: 5px;
+  border-radius: 10px;
 `;
 
 const LoginButton = styled(Button)`
@@ -22,7 +23,6 @@ const LoginButton = styled(Button)`
   transition: background-color 0.5s ease;
 
   &:hover {
-    background-color: #28a745;
     transition: background-color 0.5s ease;
   }
 `;
@@ -96,7 +96,6 @@ const Login = () => {
         <Dropdown.Menu>
           <Dropdown.Item href="#/action-1">Admin</Dropdown.Item>
           <Dropdown.Item href="#/action-2">Usuário</Dropdown.Item>
-          <Dropdown.Item href="#/action-3">Convidado</Dropdown.Item>
         </Dropdown.Menu>
       </Dropdown>
 
