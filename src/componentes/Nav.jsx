@@ -41,9 +41,6 @@ function Nav() {
             <button>
               <Link to="/login">Login</Link>
             </button>
-            <button>
-              <Link to="/cadastro">Cadastro</Link>
-            </button>
           </div>
 
           <div className="mobile-menu-icon">
